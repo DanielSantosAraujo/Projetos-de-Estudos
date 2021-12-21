@@ -1,0 +1,34 @@
+<script>
+    quantidadeDeNumeros = 9;
+    numeros = [];
+    maiorNumero = 0;
+    menorNumero = 0;
+    posicao = 0;
+    
+    for(contador = 0; contador <= quantidadeDeNumeros; contador++) {
+       var n = parseFloat(prompt("Entre com um número:"));
+       numeros.push(n); 
+    }
+    
+    for(contador = 0; contador <= numeros.length; contador++) {
+       
+       if( contador == 0) {
+           maiorNumero = numeros[contador];
+        
+       }else if(numeros[contador] > maiorNumero)
+       maiorNumero = numeros[contador] ;   
+
+       if(maiorNumero == numeros[contador]){
+            posicao = contador;
+        }
+    }
+
+
+
+
+    console.log(numeros);
+    document.write(maiorNumero);
+    document.write("<br>");
+    document.write(posicao);
+    
+</script>

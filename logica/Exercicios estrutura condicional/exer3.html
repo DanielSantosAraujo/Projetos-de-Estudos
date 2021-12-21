@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numero = parseFloat(prompt("Entre com um número:"));
+    
+
+    if(numero >= 0 ) {
+        
+        mostra("A raiz quadrada do número é  " + Math.sqrt(numero));
+    } else {
+        if(numero < 0) {
+        mostra(Math.pow(numero,2));
+    }
+}
+
+</script>

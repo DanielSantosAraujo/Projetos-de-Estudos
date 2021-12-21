@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numero1 = parseInt(prompt("Entre com o primeiro número:"));
+    var numero2 = parseInt(prompt("Entre com o segundo número:"));
+
+    if(numero1 < numero2) {
+        mostra("O maior número entre eles dois é " + numero2);
+    } else {
+        mostra("O maior número entre eles dois é " + numero1);
+    }
+
+</script>

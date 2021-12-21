@@ -1,0 +1,50 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    
+    var numero = parseFloat(prompt( " Entre com um numero de 1 a 7!"));
+
+    switch(numero) {
+        case 1:
+            mostra("O dia da semana " + numero + " é domingo.");
+            break;
+        
+            case 2:
+            mostra("O dia da semana " + numero + " é Segunda-Feira.");
+            break;
+            
+            case 3:
+            mostra("O dia da semana " + numero + " é Terça-Feira.");
+            break;
+
+            case 4:
+            mostra("O dia da semana " + numero + " é Quarta-Feira.");
+            break;
+
+            case 5:
+            mostra("O dia da semana " + numero + " é Quinta-Feira.");
+            break;
+
+            case 6:
+            mostra("O dia da semana " + numero + " é Sexta-Feira.");
+            break;
+
+            default:
+            mostra("O dia da semana " + numero + " é Sábado.");
+    }
+    
+ 
+
+    
+</script>

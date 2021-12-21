@@ -1,0 +1,33 @@
+<script>
+
+var contador = 0;
+var maiorLido = 0;
+var menorLido = 0;
+
+
+
+
+    while(contador < 10) {
+        
+        var numero = parseInt(prompt("Entre com os números que deseja saber a média:"));
+        
+        if(contador == 0) {
+            
+            maiorLido = numero;
+            menorLido = numero;
+        } 
+        if(numero > maiorLido) {
+            maiorLido = numero;
+        }
+         else if(numero < menorLido) {
+            menorLido = numero;
+        }
+        contador++;
+    }
+
+document.write(maiorLido);
+document.write("<br>");
+document.write(menorLido);
+
+
+</script>

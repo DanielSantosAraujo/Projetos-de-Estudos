@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    alert("Os valores das notas devem ser maiores ou iguais a 0.0 ou menores ou iguais a 10.0. Caso contrário o programa será desligado!");
+
+    var nome = prompt("Digite o nome do aluno!");
+    var nota1 = parseFloat(prompt("Entre com  a primeira nota:"));
+    var nota2 = parseFloat(prompt("Entre com a segunda nota:"));
+    var media  = (nota2 + nota1) /2;
+
+    if( (0.0 <= nota1) && (nota1<= 10.0) && (0.0 <= nota2) && (nota2 <= 10.0)) {
+        mostra("A média das notas é " + media);        
+        
+    }
+     else {
+         alert("Alguma nota está inválida!") ;   
+    }
+</script>

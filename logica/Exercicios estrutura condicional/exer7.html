@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numero1 = parseInt(prompt("Entre com o primeiro numero:"));
+    var numero2 = parseInt(prompt("Entre com o segundo:"));
+    
+
+    if( numero1 < numero2) {
+        
+        mostra("O maior número digitado é o segundo numero no valor de " + numero2);    
+    }  
+    
+    if (numero2 < numero1) {                        
+
+        mostra("O maior número digitado é o primeiro numero no valor de " + numero1);
+    } else {
+        if (numero1 == numero2)
+        mostra("Números iguais!");
+    }
+</script>

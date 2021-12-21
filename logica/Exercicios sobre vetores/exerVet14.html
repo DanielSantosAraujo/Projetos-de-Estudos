@@ -1,0 +1,39 @@
+<script>
+
+
+    function pulaLinha() {
+        document.write("<br>");
+        
+    }
+
+    function mostra(frase) {
+        document.write("<br>");
+        document.write(frase);
+        pulaLinha();
+    }
+
+    quantidadeDeNumeros = 9;
+    numero = [];
+
+    for(contador = 0; contador <= quantidadeDeNumeros; contador++) {
+       var n = parseFloat(prompt("Entre com os números:"));
+       numero.push(n); 
+       mostra(numero[contador]);
+    }
+
+    for ( contador = 0; contador < numero.length; contador++) {
+        for(posicao = contador + 1; posicao < numero.length; posicao++) {
+            if(numero[contador] == numero[posicao]) {
+                mostra(numero[contador]);
+            } 
+        }
+     }
+    
+
+
+               
+        
+     
+
+
+</script>

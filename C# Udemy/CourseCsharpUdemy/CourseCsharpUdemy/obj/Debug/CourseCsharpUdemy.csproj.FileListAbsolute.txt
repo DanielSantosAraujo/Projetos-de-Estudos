@@ -1,0 +1,7 @@
+C:\Users\TREINAMENTO09\Documents\C# Udemy\CourseCsharpUdemy\CourseCsharpUdemy\bin\Debug\CourseCsharpUdemy.exe.config
+C:\Users\TREINAMENTO09\Documents\C# Udemy\CourseCsharpUdemy\CourseCsharpUdemy\bin\Debug\CourseCsharpUdemy.exe
+C:\Users\TREINAMENTO09\Documents\C# Udemy\CourseCsharpUdemy\CourseCsharpUdemy\bin\Debug\CourseCsharpUdemy.pdb
+C:\Users\TREINAMENTO09\Documents\C# Udemy\CourseCsharpUdemy\CourseCsharpUdemy\obj\Debug\CourseCsharpUdemy.csproj.AssemblyReference.cache
+C:\Users\TREINAMENTO09\Documents\C# Udemy\CourseCsharpUdemy\CourseCsharpUdemy\obj\Debug\CourseCsharpUdemy.csproj.CoreCompileInputs.cache
+C:\Users\TREINAMENTO09\Documents\C# Udemy\CourseCsharpUdemy\CourseCsharpUdemy\obj\Debug\CourseCsharpUdemy.exe
+C:\Users\TREINAMENTO09\Documents\C# Udemy\CourseCsharpUdemy\CourseCsharpUdemy\obj\Debug\CourseCsharpUdemy.pdb

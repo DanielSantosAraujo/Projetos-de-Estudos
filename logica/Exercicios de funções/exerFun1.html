@@ -1,0 +1,25 @@
+<script>
+    
+    var quantidadeDeNumeros = parseInt(prompt("digite um número;"));
+    var maiorNumero = 0;
+    numeros = [];
+    var vezesLido = 0;
+
+    for(var contador= 0;contador < quantidadeDeNumeros ;contador++) {
+        var numero = parseInt(prompt("digite um número;")) ;
+        numeros.push(numero);
+        if(numeros[contador] > maiorNumero) {
+            maiorNumero = numero;
+        }
+    }
+
+    for(posicao= 0; posicao <numeros.length;posicao++) {
+        if(numeros[posicao] == maiorNumero) {
+            vezeslido = vezesLido++;
+        }
+    }
+
+document.write("O maior número digitado foi, " + maiorNumero);
+document.write(" e ele foi digitado, " + vezesLido + " vezes"); 
+
+</script>

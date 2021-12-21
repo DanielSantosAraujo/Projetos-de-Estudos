@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    
+    /*var numero = parseInt(prompt( " Entre com um número inteiro!"));
+    
+    if(numero > 0) {
+       var primeiroAlgarismo = numero % 10;
+       numero = (numero - primeiroAlgarismo) /10;
+       segundoAlgarismo = numero%10;
+       numero = (numero - segundoAlgarismo)/10;3
+       soma = primeiroAlgarismo + segundoAlgarismo + numero;
+       mostra("A soma de todos os numero é " + soma);
+    }else mostra("Número inválido!");
+*/
+
+
+var numero = parseInt(prompt( " Entre com um número inteiro!"));
+soma = 0;
+if(numero<0) {
+    mostra("Número inválido!");
+}else {
+    while(numero>0) {
+        resto = numero %10;
+        soma = soma + resto;
+        numero = (numero - resto)/10;
+        
+    }
+    mostra(soma);
+}
+
+   
+</script>

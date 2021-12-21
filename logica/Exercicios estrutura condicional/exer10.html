@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    
+    var altura = parseFloat(prompt( " Entre com  a altura da pessoa:"));
+    var sexo = prompt(" Entre com o sexo da pessoa:");
+    
+
+    if(sexo == "Masculino" || sexo == "masculino"){
+        pesoIdealHomem = (72.7 * altura) - 58;
+        mostra("Seu peso ideal é " + pesoIdealHomem + ", pois você é um homem!");        
+        
+    }   else if (sexo == "Feminino" || sexo == "feminino"); {
+         pesoIdealMulher = (62.1 * altura) - 44.7;
+         mostra("Seu peso ideal é " + pesoIdealMulher + ", pois você é uma mulher!");   
+    }
+</script>

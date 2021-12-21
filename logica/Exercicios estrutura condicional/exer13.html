@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    
+    var nota1 = parseFloat(prompt( " Entre com a primeira nota!"));
+    var nota2 = parseFloat(prompt( " Entre com a segunda nota!"));
+    var nota3 = parseFloat(prompt( " Entre com a terceira nota!"));
+    
+    var media = ((nota1+nota2) + (2*nota3))/4;
+
+    if(media >= 60) {
+        mostra("A sua media foi de "  + media + " pontos, e você está aprovado. Parabéns!");
+    } else{
+        alert("A sua media foi de "  + media +  " pontos, e infelizmente você está reprovado! ");
+    }
+    
+</script>

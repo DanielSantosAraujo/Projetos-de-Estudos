@@ -1,0 +1,33 @@
+<script>
+
+
+    function pulaLinha() {
+        document.write("<br>");
+        
+    }
+
+    function mostra(frase) {
+        document.write("<br>");
+        document.write(frase);
+        pulaLinha();
+    }
+
+    quantidadeDepessoas = parseInt(prompt("Entre com a quantidade de pessoas:"));
+    galera = [];
+
+    for(contador=0; contador< quantidadeDepessoas; contador++) {
+        var pessoa = prompt("Entre com os nome de uma pessoa:");
+        galera.push(pessoa);
+    }
+
+    for(contador=0; contador< quantidadeDepessoas; contador++) {
+        console.log((galera[contador]));
+    }
+
+    
+
+          
+        
+     
+
+</script>

@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    var nome = prompt("Digite o nome do trabalhador!");
+    var salario = parseFloat(prompt(nome + " Entre com  o seu salário:"));
+    var prestacao = parseFloat(prompt(nome + " Entre com o valor da prestação do empréstimo:"));
+
+
+    if(prestacao > (.2*salario)){
+        alert("Empréstimo não concedido");        
+        
+    }
+     else {
+         alert("Empréstimo concedido!") ;   
+    }
+</script>

@@ -1,0 +1,55 @@
+<script>
+
+
+    function pulaLinha() {
+        document.write("<br>");
+        
+    }
+
+    function mostra(frase) {
+        document.write("<br>");
+        document.write(frase);
+        pulaLinha();
+    }
+
+    quantidadeDeNumeros = 5;
+    numero = [];
+    soma = 0;
+    media = 0;
+  
+    menorNumero = 0;
+    maiorNumero = 0;
+    for(contador = 0; contador < quantidadeDeNumeros; contador++) {
+       var n = parseFloat(prompt("Entre com as notas:"));
+       numero.push(n); 
+    }
+
+    for (contador = 0; contador < numero.length; contador++) {
+        document.write(numero[contador]);
+        document.write("<br>");
+        soma = soma + numero[contador];
+    }
+
+    for(contador = 0; contador < numero.length; contador++) {
+        if(contador == 0) {
+            maiorNumero = numero[contador];
+            menorNumero = numero[contador];
+            
+        }
+
+        if(numero[contador] > maiorNumero) {
+            maiorNumero = numero[contador];
+        } else if(numero[contador] < menorNumero) {
+            menorNumero = numero[contador];
+        }
+    }
+
+        media = soma / quantidadeDeNumeros;
+
+        mostra(media);                
+        mostra(maiorNumero);
+        mostra(menorNumero);
+        mostra(soma);
+
+
+</script>

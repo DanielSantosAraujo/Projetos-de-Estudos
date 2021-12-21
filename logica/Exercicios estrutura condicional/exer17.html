@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    
+    var baseMaior = parseFloat(prompt( " Entre com a base maior do trapézio!"));
+    var baseMenor = parseFloat(prompt( " Entre com a base menor do trapézio"));
+    var altura = parseFloat(prompt( " Entre com a altura do trapézio."));
+
+    if(baseMaior<0 || baseMenor<0) {
+        alert("Não pode ser um tzarpézio!");
+    }else {
+        area = (baseMenor + baseMaior)*altura/ 2
+        mostra("A área do trapézio é " + area + " metros.");
+    }
+    
+    
+ 
+
+    
+</script>

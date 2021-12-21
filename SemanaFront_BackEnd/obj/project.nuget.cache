@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "u7gKfHsWG3AucObD7IC16KCeMVolLgMFytF1fIBLe+gA9q22d2JhXxUQ+3CH6wyhqBTythwij2/qS21/I+RF4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TREINAMENTO09\\source\\repos\\SemanaFront_BackEnd\\SemanaFront_BackEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TREINAMENTO09\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\TREINAMENTO09\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\TREINAMENTO09\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\TREINAMENTO09\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\TREINAMENTO09\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\TREINAMENTO09\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

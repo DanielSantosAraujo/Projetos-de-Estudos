@@ -1,0 +1,22 @@
+<script>
+    quantidadeDeNumeros = 7;
+    numeros = [];
+    dobro = [];
+    
+    for(contador = 0; contador <= quantidadeDeNumeros; contador++) {
+       var n = parseFloat(prompt("Entre com um número:"));
+       numeros.push(n); 
+    }  
+
+    var x = parseInt(prompt("Digite um numero"));
+    var y = parseInt(prompt("Digite outro numero"));
+    
+    for(contador = 0; contador<= quantidadeDeNumeros; contador++){
+        
+        if(contador== x || contador==y){
+            soma = numeros[x] + numeros[y];
+        }
+    }
+    console.log(numeros);
+    document.write(soma);
+</script>

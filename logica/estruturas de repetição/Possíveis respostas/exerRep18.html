@@ -1,0 +1,31 @@
+<script>
+
+var quantidadeDeNumeros = parseInt(prompt("Digite a quantidade de números que você quer ler:"));
+var maiorNumero = 0;
+var contador = 1;
+var vezesRepetidas = 0;
+
+    while(contador <= quantidadeDeNumeros) {
+        var numero = parseInt(prompt("Entre com os numeros"));
+        if (numero > maiorNumero){
+            maiorNumero = numero; 
+        }
+        if(maiorNumero == numero) {  
+    
+        } 
+        contador++;
+    }
+
+    document.write("O maior número foi o " + maiorNumero);
+    document.write("<br>")
+    document.write("O maior número foi repetido "  + vezesRepetidas + " vezes.");
+    
+    
+
+
+/*if(contador%2 != 0)
+    document.write(contador);
+    document.write("<br>")*/
+
+</script>
+

@@ -1,0 +1,35 @@
+<script>
+
+var numero = 0;
+var contador = 0;
+var numeroPar = 0;
+
+
+
+    while( numero != 1000) {
+        
+         
+        var numero = parseInt(prompt("Entre com um número:"));
+        if(numero%2 == 0) {
+            numeroPar++;
+        }
+        contador++;
+    }
+
+    document.write("O numero de valores lidos foram " + contador);
+    document.write("<br>")
+    document.write("O numero de valores pares lidos " + numeroPar);
+/*
+document.write("O maior número foi o " + maiorNumero);
+document.write("<br>")
+document.write("O maior número foi repetido "  + vezesRepetidas + " vezes.");
+*/
+
+
+
+/*if(contador%2 != 0)
+    document.write(contador);
+    document.write("<br>")*/
+
+</script>
+

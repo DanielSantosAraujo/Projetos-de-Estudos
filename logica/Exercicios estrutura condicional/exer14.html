@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    
+    var notaTrabalhoDeLaboratorio = parseFloat(prompt( " Entre com a nota de trabalho de laboratório !"));
+    var notaAvaliacaoSemestral = parseFloat(prompt( " Entre com nota de Avaliação Semestral!"));
+    var notaExameFinal = parseFloat(prompt( " Entre com a nota de Exame Final!"));
+    
+    var media = ((notaTrabalhoDeLaboratorio*2) + (notaAvaliacaoSemestral*3) + (notaExameFinal*5))/10;
+
+    if(0 <= media && media<=2.9) {
+        mostra("A sua media foi de "  + media + " pontos, e você está reprovado.");
+    } else if(3<=media && media <= 4.9) {
+        
+        mostra("A sua media foi de "  + media +  " pontos, e você está de recuperação! ");
+    } if(media> 4.9) {
+        mostra("Parabéns, você foi aprovado!");
+    } 
+ 
+
+    
+</script>

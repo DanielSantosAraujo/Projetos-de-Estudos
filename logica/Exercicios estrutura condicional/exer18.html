@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    
+    }
+
+    alert("Digite 1 para somar, 2 para subtrair, 3 para multiplicar ou 4 para dividir: ");
+    
+    var numeroEscolhido = parseInt(prompt("Escolha um número do menu anterior:"));
+    var numero1 = parseFloat(prompt("Digite um número para realizar a operação solicitada"));
+    var numero2 =  parseFloat(prompt("Entre com o outro número"));
+    
+    switch(numeroEscolhido) {
+        case 1:
+            soma = numero1 + numero2;
+            mostra("A soma de "  + numero1 +  " mais " + numero2+ " é igual a " + soma);
+        break;
+
+        case 2:
+            
+            subtrair = numero1 - numero2;
+            if(subtrair<0) {
+                subtrair = subtrair*(-1);
+                mostra("A subtração de "  + numero1 +  " mais " + numero2 + " é igual a " + subtrair);
+            }else{ mostra("A subtração de "  + numero1 +  " mais " + numero2 + "é igual a " + subtrair);
+
+            }
+        break;
+
+        case 3:
+            multiplica = numero1 * numero2;
+            mostra("A multiplicação de " + numero1+ " vezes " +numero2+ " é igual a " + multiplicar);
+        break;
+
+        default:
+    }
+
+ 
+
+    
+</script>

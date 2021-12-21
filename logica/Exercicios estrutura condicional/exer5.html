@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numero = parseFloat(prompt("Entre com um número:"));
+    
+
+    if(numero %2 == 0 ) {
+        
+        mostra("O número digitado é par!");
+        
+    } else {
+        mostra("O número digitado é impar! ");
+    }
+
+</script>

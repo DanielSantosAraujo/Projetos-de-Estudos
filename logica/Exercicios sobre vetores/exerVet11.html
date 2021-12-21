@@ -1,0 +1,25 @@
+<script>
+    quantidadeDeAlunos = 10;
+    numero = [];
+  
+    somaNegativo = 0;
+    somaPositivo = 0;
+    for(contador = 0; contador < quantidadeDeAlunos; contador++) {
+       var n = parseFloat(prompt("Entre com as notas:"));
+       numero.push(n); 
+    }
+    
+    for(contador = 0; contador < numero.length; contador++ ) {
+        if(numero[contador] < 0) {
+            somaNegativo = somaNegativo + 1;
+        }else {
+            somaPositivo = somaPositivo + numero[contador];
+        }
+    }
+
+    document.write(somaNegativo);
+    document.write("<br>");
+    document.write(somaPositivo);
+    console.log(numero);
+
+</script>

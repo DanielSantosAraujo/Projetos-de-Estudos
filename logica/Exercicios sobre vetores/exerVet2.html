@@ -1,0 +1,25 @@
+<script>
+    quantidadeDeNumeros = 9;
+    numeros = [];
+    dobro = [];
+    
+    for(contador = 0; contador <= quantidadeDeNumeros; contador++) {
+       var n = parseFloat(prompt("Entre com um número:"));
+       numeros.push(n); 
+
+    }  
+    for(posicao = 0; posicao < numeros.length; posicao++){                                 
+    document.write(numeros[posicao]);
+    document.write("<br>");
+    }
+
+    for(posicao = 0; posicao < numeros.length; posicao++) {
+        dobro[posicao] = (numeros[posicao]*2) ;
+       
+    }
+    document.write("<br>");
+    document.write(dobro);
+    document.write("<br>");
+    
+    
+</script>

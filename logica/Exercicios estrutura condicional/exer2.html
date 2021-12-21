@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numero1 = parseInt(prompt("Entre com um número:"));
+    
+
+    if(numero1 >= 0 ) {
+        
+        mostra("A raiz quadrada do número é  " + Math.sqrt(numero1));
+    } else {
+        mostra("Número inválido");
+    }
+
+</script>
